@@ -7,13 +7,15 @@
     "prebuild:dev": "rimraf dist/",
     "build": "parcel build src/index.html",
     "build:dev": "parcel src/index.html",
-    "postbuild:dev": " clear && echo \"Molt be LLUIS segueix així\""
+    "postbuild:dev": " clear && echo \"Molt be LLUIS segueix així\"",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.8.2",
-    "rimraf": "^4.0.7"
+    "rimraf": "^4.0.7",
+    "husky": "^8.0.0"
   }
 }
