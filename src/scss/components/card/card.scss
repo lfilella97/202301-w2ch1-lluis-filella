@@ -2,4 +2,29 @@
 
 .card {
   font-family: typography.$main-font;
+  width: 375px;
+  top: 50%;
+  left: 50%;
+  border: 1px solid black;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  &__image {
+    width: 375px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .card {
+    width: 1440px;
+    height: 446px;
+    &__image {
+      display: block;
+      position: absolute;
+      width: 540px;
+      height: 446px;
+      top: 0;
+      right: 0;
+    }
+  }
 }
