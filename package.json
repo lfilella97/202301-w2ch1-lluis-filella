@@ -1,0 +1,19 @@
+{
+  "name": "week-2",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "prebuild": "rimraf dist/",
+    "prebuild:dev": "rimraf dist/",
+    "build": "parcel build index.html",
+    "build:dev": "parcel index.html",
+    "postbuild:dev": " clear && echo \"Molt be LLUIS segueix així\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "rimraf": "^4.0.7"
+  }
+}
