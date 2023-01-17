@@ -1,5 +1,22 @@
+@use "../colors/colors.scss";
+
 *,
 ::before,
 ::after {
   box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+mark {
+  background-color: transparent;
+  color: colors.$accent-color;
 }
